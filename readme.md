@@ -33,3 +33,8 @@ Create the build:
 ```
 yarn build
 ```
+
+## License
+[MIT](LICENSE)
+
+Made with :blue_heart: by [Mohnish Landge](http://mohnishlandge.me)

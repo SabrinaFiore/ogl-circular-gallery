@@ -110,24 +110,24 @@ export default class App {
         viewport: this.viewport
       })
 
-      document.getElementById('searchTxt').addEventListener('change', function() {
-        const input = document.getElementById('searchTxt')
-        console.log("[debug] input.value", input.value)
+      // document.getElementById('searchTxt').addEventListener('change', function() {
+      //   const input = document.getElementById('searchTxt')
+      //   console.log("[debug] input.value", input.value)
   
-        if (input.value !== text) {
-          // media.scene.visible = false
-          console.log("[debug] media", media)
-        }
+      //   if (input.value !== text) {
+      //     // media.scene.visible = false
+      //     console.log("[debug] media", media)
+      //   }
         
-        if (input.value === '' || input.value === text) {
-          media.scene.visible = true
+      //   if (input.value === '' || input.value === text) {
+      //     media.scene.visible = true
           
-          if (input.value === text && media.scene.visible === true) {
-            // console.log("[debug] ENTRA media.plane.rotation", media.plane.rotation)
-            // media.plane.position.set(0, -1.3, 0)
-          }
-        }
-      }, false)  
+      //     if (input.value === text && media.scene.visible === true) {
+      //       // console.log("[debug] ENTRA media.plane.rotation", media.plane.rotation)
+      //       // media.plane.position.set(0, -1.3, 0)
+      //     }
+      //   }
+      // }, false)  
 
       return media
     })
