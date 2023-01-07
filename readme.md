@@ -33,18 +33,3 @@ Create the build:
 ```
 yarn build
 ```
-
-## Credits
-
-- [Webpack THREE.js Template](https://github.com/brunosimon/webpack-three-js-template)
-
-## Misc
-
-Follow *@iviixio*: [Twitter](https://twitter.com/iviixio), [Instagram](https://www.instagram.com/iviixio/)
-
-Youtube Video: [Twitter](https://youtu.be/MmjZG-UX30g)
-
-## License
-[MIT](LICENSE)
-
-Made with :blue_heart: by [Mohnish Landge](http://mohnishlandge.me)
